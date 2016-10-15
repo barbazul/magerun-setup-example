@@ -1,0 +1,171 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "1592137da3600ba88e8bf334836e24b0",
+    "content-hash": "5c95b70ff17f5db4937fd118a116a0a3",
+    "packages": [
+        {
+            "name": "aoepeople/composer-installers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AOEpeople/composer-installers.git",
+                "reference": "6c345190669b67b7ffd91eb48109d71c16bec6b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AOEpeople/composer-installers/zipball/6c345190669b67b7ffd91eb48109d71c16bec6b1",
+                "reference": "6c345190669b67b7ffd91eb48109d71c16bec6b1",
+                "shasum": ""
+            },
+            "replace": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Aoepeople\\ComposerInstallers\\Installer"
+            },
+            "autoload": {
+                "psr-0": {
+                    "Aoepeople\\ComposerInstallers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Fabrizio Branca",
+                    "email": "{firstname}.{lastname}@aoe.com"
+                }
+            ],
+            "description": "A simple composer installer",
+            "keywords": [
+                "installer",
+                "magento",
+                "modman"
+            ],
+            "time": "2016-03-14 17:05:16"
+        },
+        {
+            "name": "aoepeople/envsettingstool",
+            "version": "v1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AOEpeople/EnvSettingsTool.git",
+                "reference": "1d171b3f8d5545fd7d98ccbc4d8f53fb561dc81f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AOEpeople/EnvSettingsTool/zipball/1d171b3f8d5545fd7d98ccbc4d8f53fb561dc81f",
+                "reference": "1d171b3f8d5545fd7d98ccbc4d8f53fb561dc81f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "bin": [
+                "value.php",
+                "apply.php",
+                "dryRun.php",
+                "extract.php"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL v3"
+            ],
+            "authors": [
+                {
+                    "name": "Fabrizio Branca"
+                },
+                {
+                    "name": "Daniel Pötzinger"
+                }
+            ],
+            "description": "Environment Settings Tool",
+            "homepage": "https://github.com/AOEpeople/EnvSettingsTool",
+            "time": "2015-08-15 20:23:34"
+        },
+        {
+            "name": "openmage/magento-lts",
+            "version": "1.9.2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OpenMage/magento-lts.git",
+                "reference": "fa29b933b7f2d4662fbcf0c66cf80c1c0389c0d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OpenMage/magento-lts/zipball/fa29b933b7f2d4662fbcf0c66cf80c1c0389c0d5",
+                "reference": "fa29b933b7f2d4662fbcf0c66cf80c1c0389c0d5",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*",
+                "php": ">=5.2.13"
+            },
+            "type": "magento-source",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Lee Saferite",
+                    "email": "lee.saferite@aoe.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "David Robinson",
+                    "email": "david.robinson@aoe.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "time": "2016-01-26 17:53:43"
+        },
+        {
+            "name": "sitewards/modman-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sitewards/modman-php.git",
+                "reference": "28ef16a45c8222ad358b688765ed4397193ff9b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sitewards/modman-php/zipball/28ef16a45c8222ad358b688765ed4397193ff9b7",
+                "reference": "28ef16a45c8222ad358b688765ed4397193ff9b7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "bin": [
+                "modman.php",
+                "modman.sh",
+                "modman.bat"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP implementation for modman, to use it on every operating system with PHP support (also Windows).",
+            "homepage": "https://github.com/sitewards/modman-php",
+            "time": "2015-11-16 09:58:42"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

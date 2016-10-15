@@ -1,0 +1,30 @@
+{
+    "name": "semexpert/magento_base",
+    "description": "Nuevo proyecto Magento",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Matías Montes",
+            "email": "matias@semexpert.com.ar",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "aoepeople/composer-installers": "*",
+        "openmage/magento-lts": "1.9.2.*",
+        "sitewards/modman-php": "*",
+        "aoepeople/envsettingstool": "^1.4"
+    },
+    "require-dev": {
+    },
+    "config": {
+        "bin-dir": "tools"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.firegento.com"
+        }
+    ]
+}

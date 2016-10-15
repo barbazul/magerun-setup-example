@@ -1,0 +1,17 @@
+# Ignorar estas carpetas
+/vendor/
+/htdocs/
+/tools/*
+!/tools/composer.phar
+!/tools/modman
+/node_modules/
+/.sass-cache/
+/.idea/
+/phpunit.xml
+/tmp
+
+# Ignorar modulos instalados por composer
+/.modman/semexpert_banners/
+/.modman/semexpert_magentolocales/
+/.modman/ecomdev_phpunit
+.modman/semexpert_currencysymbolposition/
