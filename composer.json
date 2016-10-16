@@ -14,7 +14,8 @@
         "aoepeople/composer-installers": "*",
         "openmage/magento-lts": "1.9.2.*",
         "sitewards/modman-php": "*",
-        "aoepeople/envsettingstool": "^1.4"
+        "aoepeople/envsettingstool": "^1.4",
+        "n98/magerun": "^1.97"
     },
     "require-dev": {
     },

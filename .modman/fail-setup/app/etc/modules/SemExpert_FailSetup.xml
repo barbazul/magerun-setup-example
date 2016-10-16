@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <SemExpert_FailSetup>
+            <active>true</active>
+            <codePool>local</codePool>
+        </SemExpert_FailSetup>
+    </modules>
+</config>

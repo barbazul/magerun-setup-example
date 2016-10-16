@@ -1,0 +1,2 @@
+app/etc/modules/SemExpert_FailSetup.xml app/etc/modules/SemExpert_FailSetup.xml
+app/code/local/SemExpert/FailSetup app/code/local/SemExpert/FailSetup
